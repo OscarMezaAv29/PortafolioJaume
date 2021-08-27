@@ -6,51 +6,156 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portafolio Jaume</title>
-    <link rel="stylesheet" href="./css/index.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
 </head>
 
 <body>
+    <header class="header">
+        <div class="wrapper">
+            <div class="header-content">
+                <img src="./images/logo.png" width="70" height="20" alt="logo muy bonito" />
+                <nav class="menu" aria-label="main-navigation">
+                    <ul>
+                        <li>
+                            <a class="is-active" href="#main">Hola</a>
+                        </li>
+                        <li>
+                            <a href="#project">Proyectos</a>
+                        </li>
+                        <li>
+                            <a href="#contact">Hablemos</a>
+                        </li>
+                    </ul>
+                </nav>
+                <button class="button">Curriculum</button>
+            </div>
+        </div>
+    </header>
     <div class="wrapper">
-        <header class="header">
-            <img src="./images/logo.png" width="70" height="20" alt="logo muy bonito" />
-            <nav class="menu">
-                <ul>
-                    <li>
-                        <a class="is-active" href="#main">Hola</a>
-                    </li>
-                    <li>
-                        <a href="#project">Proyectos</a>
-                    </li>
-                    <li>
-                        <a href="#contact">Hablemos</a>
-                    </li>
-                </ul>
-            </nav>
-            <button class="button">Curriculum</button>
-        </header>
 
-        <section class="hero" id="main">
+        <section aria-label="main" class="hero" id="main">
             <div class="hero-image">
-                <img src="./images/jaume.png" width="338" height="330" alt="">
+                <img src="./images/jaume.png" width="338" height="330" alt="" />
             </div>
             <div class="hero-description">
                 <h1>
                     <span>¡Hola a todos!</span>
                     <span>Soy Jaume</span>
                 </h1>
-                <p>Frontend Developer que le encanta implementar diseños que inspiran y atraen a las personas.</p>
-                <div class="hero-social">
-                    <a class="button-icon" href="tel:2381350044"><img src="./icons/icon-phone.svg"></a>
-                    <a class="button-icon" href="tel:2381350044"><img src="./icons/icon-important_mail.svg"></a>
-                    <a class="button-icon" href="tel:2381350044"><img src="./icons/icon-instagram.svg"></a>
-                    <a class="button-icon" href="tel:2381350044"><img src="./icons/icon-twitter_squared.svg"></a>
+                <p>
+                    Frontend Developer que le encanta implementar diseños que inspiran y atraen a las personas.
+                </p>
+                <div class="social">
+                    <a class="button-icon" href="tel:2381350044"><img src="./icons/icon-phone.svg" /></a>
+                    <a class="button-icon" href="tel:2381350044"><img src="./icons/icon-important_mail.svg" /></a>
+                    <a class="button-icon" href="tel:2381350044"><img src="./icons/icon-instagram.svg" /></a>
+                    <a class="button-icon" href="tel:2381350044"><img src="./icons/icon-twitter_squared.svg" /></a>
                 </div>
                 <a href="#" class="button">Descargar curriculum</a>
             </div>
         </section>
+
+        <div class="project" id="project">
+            <div class="project-image">
+                <img src="./images/leonidasesteban.png" alt="" />
+            </div>
+            <div class="project-description">
+                <a class="title" target="_blank" href="https://leonidasesteban.com">LeonidasEsteban.com</a
+          >
+          <p>
+            Accede a más de 120 proyectos que te ayudarán a mejorar tus
+            habilidades como desarrollador Front-End.
+          </p>
+          <a target="_blank" href="#" class="button is-secondary">Ver Código</a>
+                <a target="_blank" href="#" class="button">Ver Proyecto</a>
+            </div>
+        </div>
+
+        <div class="testimony">
+            <span class="testimony__pic--first"></span>
+            <h2>"Oscar ha sido de gran ayuda para acelerar el desarrollo. Lo que nos hubiera llevado 6 meses solo les llevó 3 meses".</h2>
+            <p>OSCAR BUCIO / oscarbucio.dev</p>
+        </div>
+        <div class="project">
+            <div class="project-image">
+                <img src="./images/📱 iPad.png" alt="" />
+            </div>
+            <div class="project-description">
+                <a class="title" target="_blank" href="https://leonidasesteban.com">LeonidasEsteban.com</a
+          >
+          <p>
+            Accede a más de 120 proyectos que te ayudarán a mejorar tus
+            habilidades como desarrollador Front-End.
+          </p>
+          <a target="_blank" href="#" class="button is-secondary">Ver Código</a>
+                <a target="_blank" href="#" class="button">Ver Proyecto</a>
+            </div>
+        </div>
+        <div class="testimony">
+            <span class="testimony__pic--first"></span>
+            <h2>"Oscar ha sido de gran ayuda para acelerar el desarrollo. Lo que nos hubiera llevado 6 meses solo les llevó 3 meses".</h2>
+            <p>OSCAR BUCIO / oscarbucio.dev</p>
+        </div>
+        <div class="project">
+            <div class="project-image">
+                <img src="./images/📱 Iphone X.png" alt="" />
+            </div>
+            <div class="project-description">
+                <a class="title" target="_blank" href="https://leonidasesteban.com">LeonidasEsteban.com</a
+          >
+          <p>
+            Accede a más de 120 proyectos que te ayudarán a mejorar tus
+            habilidades como desarrollador Front-End.
+          </p>
+          <a target="_blank" href="#" class="button is-secondary">Ver Código</a>
+                <a target="_blank" href="#" class="button">Ver Proyecto</a>
+            </div>
+        </div>
+        <div class="testimony">
+            <span class="testimony__pic--first"></span>
+            <h2>"Oscar ha sido de gran ayuda para acelerar el desarrollo. Lo que nos hubiera llevado 6 meses solo les llevó 3 meses".</h2>
+            <p>OSCAR BUCIO / oscarbucio.dev</p>
+        </div>
+        <form action="" method="POST" class="form" id="contact">
+            <div class="form-content">
+                <h2 class="title">Hablemos</h2>
+                <p>Si está interesado en trabajar conmigo en su próximo proyecto, no dude en ponerse en contacto conmigo.</p>
+                <label for="form-name">
+                    Nombre Completo
+                    <input required name="name" id="form-name" type="text" placeholder="Juan">
+                </label>
+                <label for="form-email">
+                    Correo electrónico
+                    <input required name="email" id="form-email" type="email" placeholder="Juan@gmail.com">
+                </label>
+                <label for="form-message">
+                    Mensaje
+                    <textarea required placeholder="Mensaje" name="message" id="form-message" cols="30" rows="10"></textarea>
+                </label>
+                <button class="button">Enviar Mensaje</button>
+            </div>
+        </form>
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="./images/logo.png" width="70" height="20" alt="logo muy bonito" />
+                </div>
+
+                <div class="social">
+                    <a class="button-icon" href="tel:2381350044"><img src="./icons/icon-phone.svg" /></a>
+                    <a class="button-icon" href="tel:2381350044"><img src="./icons/icon-important_mail.svg" /></a>
+                    <a class="button-icon" href="tel:2381350044"><img src="./icons/icon-instagram.svg" /></a>
+                    <a class="button-icon" href="tel:2381350044"><img src="./icons/icon-twitter_squared.svg" /></a>
+                </div>
+                <div class="footer-copyright">
+                    <p>Hecho con el ❤ por Jaume. </p>
+                    <p> Copyright 2021 - Todos los derechos reservados.</p>
+                </div>
+            </div>
+        </footer>
     </div>
 </body>
 

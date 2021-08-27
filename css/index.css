@@ -4,6 +4,12 @@
 @import "./hero.css";
 @import "./wrapper.css";
 @import "./menu.css";
+@import "./testimony.css";
+@import "./project.css";
+@import "./social.css";
+@import "./footer.css";
+@import "./formulario.css";
+@import "./title.css";
 :root {
     --fontBase: 'Poppins', sans-serif;
     --headline1: bold 95px/153.71px var(--fontBase);
@@ -26,4 +32,5 @@ body {
     min-block-size: 100vh;
     font: var(--body1);
     color: var(--purple);
+    margin: 0;
 }
